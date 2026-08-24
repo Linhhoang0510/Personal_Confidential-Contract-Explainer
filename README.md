@@ -50,5 +50,5 @@ If you notice an answer that seems incorrect or misleading, please report it so 
 
 ---
 
-*Last updated: [Date]*
+*Last updated: 24 August 2026*
 
