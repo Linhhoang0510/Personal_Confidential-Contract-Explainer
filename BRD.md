@@ -56,10 +56,13 @@ The initial release will cover:
 | BR-04 | The system must support multiple concurrent users uploading and querying separate documents without cross-contamination of data between users' documents | Required for realistic multi-user pilot usage |
 | BR-05 | The system must not produce false knowledge when the information is not present in the uploaded documents | Prevent users from using false information to make critical decisions |
 | BR-06 | The system must be built and operated using only free or open-source components | Zero-cost objective; avoids procurement/budget approval delays. |
+| BR-07 | The system must allow users to view the original document content alongside the chat interface, and navigate directly to the highlighted source location referenced by any citation in an AI-generated answer | Converts citations from a passive trust signal into an actively verifiable one, directly reinforcing BO-03 and reducing the risk of users acting on an unverified or misattributed answer |
+| BR-08 | The system must automatically retain uploaded documents and associated chat history for a maximum of 2 weeks of inactivity, after which they are automatically and permanently deleted, unless the user or an administrator extends or removes the document earlier | Balances usability (allowing multi-day, multi-session conversations about a document) against data minimization principles for confidential content, and provides a clear, defensible answer to IT/Legal questions about how long sensitive documents are stored |
 
 ## 7. Assumptions and Constraints
 ### 7.1 Assumptions
-Pilot users will treat AI-generated answers as a starting point for review rather than a final determination, supported by the disclaimer requirement above
+- Pilot users will treat AI-generated answers as a starting point for review rather than a final determination, supported by the disclaimer requirement above
+- It is assumed that a 2-week retention window is sufficient for typical use cases (reviewing a single contract over the course of a negotiation or approval cycle), and that users needing longer access will manually extend retention rather than relying on indefinite default storage.
 
 ### 7.2 Constraints
 A constraint worth flagging is that the answer quality may not match that of large commercial AI service, a tradeoff accepted in exchange for confidentiality and zero cost.
