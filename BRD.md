@@ -3,7 +3,7 @@
 - Document Version: 1.0
 - Prepared For: Internal Use
 - Prepared By: Lilly Nguyen, Project Owner / BA
-- Last Updated: 24 Aug 2026
+- Last Updated: 25 Aug 2026
 
 ## 1. Executive Summary
 This document defines the business rationale, objectives, and scope for an internally hosted AI assistant that allows employees to upload contracts, agreements, and other legal or business documents and ask natural-language questions about their contents.

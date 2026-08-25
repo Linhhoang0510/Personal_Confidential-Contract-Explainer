@@ -3,7 +3,7 @@
 - Document Version: 1.0
 - Prepared For: Internal Use
 - Prepared By: Lilly Nguyen, Project Owner / BA
-- Last Updated: 24 Aug 2026
+- Last Updated: 25 Aug 2026
 
 ## 1. Purpose
 This document translates the business requirements as well as commercial language defined in the Business Requirement Document (BRD) into specific functional and non-funcitonal requirements that describe how the system must behave from a user and system-interaction perspective. 
